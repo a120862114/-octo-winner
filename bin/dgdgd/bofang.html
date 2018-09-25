@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>华语精选音乐</title>
+<script type="text/javascript" src="../js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript">
+	onload=function Tjfn(){
+		var text=$(".ipt");
+		var p=$(".pinlun").HTML("<p>"+text+"</p>");
+		
+		
+		
+	}
+</script>
+<style type="text/css">
+	.nav{
+		width:1100px;
+		height:105px;
+		border: 1px solid red;
+		margin: 0 auto;
+	  position: relative;
+	}
+.frame {
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+.ipt{
+width:950px;
+height:30px;
+border: 1px solid;
+
+
+}
+.btn{
+	width:80px;
+	height:30px;
+	border: 2px solid red;
+	border-radius: 4px;
+	position: absolute;
+	margin:10px 0 0 800px;
+	
+}
+</style>
+</head>
+<body >
+		    <!-- 页面头部 -->
+	<div class="nav" >
+		<div id="nav_1" ></div>
+		<div id="nav_2"></div>
+	</div>
+		<!-- 页面正文 -->
+	<div class="frame">
+		<div><video  poster="" controls="controls"><source src="../shipin/张磊 - 因为一个人.mkv"></video>
+		<br><span>张杰 - 一路之下</span>
+		</div>
+		<div>
+		<form action="" onclick="Tjfn()">
+			<h3>评论：</h3>
+			<div class="pinlun">
+				
+			</div>
+			<input class="ipt" type="text" placeholder="请文明评论">
+			<br><input class="btn" type="submit" value="提交评论"  >
+		</form>
+			
+		</div>
+		
+	</div>
+		<!-- 页面底部 -->
+	<div></div>
+</body>
+</html>
